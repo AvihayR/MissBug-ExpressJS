@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "a1",
+    "title": "Big Bug",
+    "description": "Cant see homepage"
+  },
+  {
+    "_id": "a2",
+    "title": "Cannot save a Car",
+    "description": "problem when clicking Save",
+    "severity": 3,
+    "createdAt": 1542107359454
+  },
+  {
+    "_id": "a3",
+    "title": "Cannot burn a Car",
+    "description": "problem when trying to set a car on fire",
+    "severity": 3,
+    "createdAt": 1542107359454
+  },
+  {
+    "_id": "a4",
+    "title": "Cannot buy a Car",
+    "description": "problem when trying to set a car on fire",
+    "severity": 3,
+    "createdAt": 1542107359454
+  }
+]
