@@ -1,10 +1,13 @@
 
 
-export function BugPreview({bug}) {
+export function BugPreview({ bug }) {
 
-    return <article>
-        <h4>{bug.title}</h4>
-        <h1>🐛</h1>
-        <p>Severity: <span>{bug.severity}</span></p>
-    </article>
+    return (
+        <article>
+            <h4>{bug.title}</h4>
+            <h1>🐛</h1>
+            <p>Severity: <span>{bug.severity}</span></p>
+            {bug.owner && <h5>{`Bug owner: ${bug.owner.fullname}`}</h5>}
+        </article>
+    )
 }
